@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,200&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,200&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background-color: rgb(26, 24, 24);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Poppins";
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 35px;
+  background-color: rgb(219, 68, 101);
+  color: white;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+.brand img {
+  width: 35px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  display: flex;
+  min-height: 70vh;
+  width: 70%;
+  color: aliceblue;
+  background-color: rgb(2, 2, 2);
+  font-family: "Labrada";
+  margin: 23px auto;
+  border-radius: 10px;
+  padding: 25px;
+  background-image: url('Under_the_Radar_Covers_of_Covers_20th_Anniversary_Album_Cover_Artwork_article_track_by_track_stream_news.jpeg')
+  
+  
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  height: 125px;
+  background-color: rgb(219, 68, 101);
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: rgb(245, 239, 239);
+}
+.icons {
+  margin-top: 12px;
+  align-items: center;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressbar {
+  width: 70vw;
+  text-align: center;
+}
